@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "bg": "images/shrinklink.png",
+    "name": "ShrinkLink",
+    "description": "Turn your Links into a short Code. Share Links in a new way !!",
+    "link": "https://xiibrightside.github.io/URLToCODE/"
+  },
+  {
+    "id": "2",
+    "bg": "images/bingebucket.png",
+    "name": "Binge Bucket",
+    "description": "A simple website to help you keep track of your TV binging neeeds",
+    "link": "https://xiibrightside.github.io/binge-bucket/"
+  },
+  {
+    "id": "3",
+    "bg": "images/maskup.png",
+    "name": "MaskUP",
+    "description": "Mask Detection & Alert System (React jS / TensorflowJS",
+    "link": "https://maskup-5321c.web.app/"
+  },
+  {
+    "id": "4",
+    "bg": "images/tictactoe.png",
+    "name": "Quick Tac Toe",
+    "description": "A simple Tic Tac Toe game built using React JS",
+    "link": "https://tictactoebynimrod.surge.sh/"
+  }
+]
