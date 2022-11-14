@@ -1,25 +1,47 @@
 import React from "react";
 
 const Footer = () => {
-  const handleClick = () => {
-    window.location.href = `mailto:thakursatyam48@gmail.com`;
-  };
   return (
-    <div className="footer__wrapper fixed bottom-0 right-0 flex justify-between items-center px-10">
-      <div>
-        <p className="para-text">© 2022 Portfolio @ Satyam Thakur</p>
+    <div className="footer flex justify-center items-center text-black-700">
+      <div className="social-icons__wrapper">
+        <a
+          href="https://twitter.com/badhackerdotnet"
+          rel="noreferrer"
+          target="_blank"
+          alt="twitter"
+        >
+          <i className="fa-brands fa-twitter"></i>
+        </a>
       </div>
-      <div className="footer__info flex flex-row gap-5">
-        <div className="flex flex-row gap-3 justify-center items-center">
-          <i className="fa-solid fa-phone"></i>
-          <p className="para-text">9911399663</p>
-        </div>
-        <div className="flex flex-row gap-3  justify-center items-center">
-          <i className="fa-solid fa-paper-plane"></i>
-          <button onClick={handleClick} className="para-text">
-            thakursatyam48@gmail.com
-          </button>
-        </div>
+      <div className="social-icons__wrapper">
+        <a
+          href="https://www.linkedin.com/in/satyam-thakur-7a5460212/"
+          rel="noreferrer"
+          target="_blank"
+          alt="linkdIn"
+        >
+          <i className="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+      <div className="social-icons__wrapper">
+        <a
+          href="https://www.instagram.com/xiibrightside/"
+          rel="noreferrer"
+          target="_blank"
+          alt="instagram"
+        >
+          <i className="fa-solid fa-hashtag"></i>
+        </a>
+      </div>
+      <div className="social-icons__wrapper">
+        <a
+          href="https://github.com/xiibrightside"
+          rel="noreferrer"
+          target="_blank"
+          alt="github"
+        >
+          <i className="fa-brands fa-github"></i>
+        </a>
       </div>
     </div>
   );

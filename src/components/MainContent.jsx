@@ -4,7 +4,7 @@ import Page3 from "../Pages/Skills";
 
 const Recap = () => {
   return (
-    <div className="maincontent__wrapper right-0 fixed">
+    <div className="maincontent__wrapper">
       <section>
         <Page1 />
       </section>

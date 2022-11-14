@@ -7,18 +7,18 @@ const Page4 = () => {
   };
   return (
     <div
-      className="contact__wrapper flex flex-col justify-start items-start gap-10 p-10"
+      className="contact__wrapper flex flex-col justify-between items-start gap-10 p-10"
       id="contact"
     >
       <h1 className="title-text">
-        I'M ALWAYS INTERESTED IN LEARNING NEW STUFF
+        I'M ALWAYS INTERESTED <br /> IN LEARNING NEW STUFF
       </h1>
       <p className="para-text text-center text-white">
-        Are you minding a Project ? Let's Talk .
+        Are you minding a Project ? <br /> Let's Talk .
       </p>
       <button
         onClick={handleClick}
-        className="header__resume-cta flex p-5 justify-center items-center rounded-lg"
+        className="contact__cta flex p-5 justify-center items-center"
       >
         CONTACT ME
       </button>

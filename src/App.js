@@ -1,19 +1,18 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import "./App.css";
-import { Footer, Header, Socials, Recap } from "./components";
+import { Sidebar, Main, Foot } from "./components";
 
 const App = () => {
   const [mode, setMode] = useState(false);
   // TODO: fix light mode
 
   return (
-    <main className="app__wrapper-night flex flex-row">
-      <Socials />
-      <div className="mainpage">
-        <Header />
-        <Recap />
-        <Footer />
+    <main className="app__wrapper flex flex-row">
+      <Sidebar />
+      <div className="mainpage flex flex-col">
+        <Main />
+        <Foot />
       </div>
     </main>
   );

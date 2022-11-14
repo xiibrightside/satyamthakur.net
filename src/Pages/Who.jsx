@@ -3,7 +3,7 @@ import React from "react";
 const Rec2 = () => {
   return (
     <div
-      className="who__wrapper w-full h-full flex flex-col justify-between gap-20"
+      className="who__wrapper w-full h-full flex flex-col justify-between gap-10"
       id="who"
     >
       <div className="who__top p-5 justify-between text-center">
@@ -20,8 +20,13 @@ const Rec2 = () => {
           movie !
         </p>
       </div>
-      <div className="who__bottom flex justify-center items-end">
-        <div className="sliver"></div>
+      <div className="who__bottom flex items-end justify-center">
+        <div className="flex flex-col gap-2 items-center">
+          <a href="#skills">
+            <p className="para-text text-white">SKILLS</p>
+          </a>
+          <div className="sliver"></div>
+        </div>
       </div>
     </div>
   );
