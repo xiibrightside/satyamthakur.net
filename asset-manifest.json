@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/satyamthakur.net/static/css/main.5e032b99.css",
+    "main.js": "/satyamthakur.net/static/js/main.ceb5de09.js",
+    "static/media/welcomebg.gif": "/satyamthakur.net/static/media/welcomebg.5daaacb3914c1e851d49.gif",
+    "static/media/contactbg.gif": "/satyamthakur.net/static/media/contactbg.1504028eb209e705d91c.gif",
+    "static/media/maskup.png": "/satyamthakur.net/static/media/maskup.08667635c8bf21283958.png",
+    "static/media/bingebucket.png": "/satyamthakur.net/static/media/bingebucket.c2ac77eaeacd2acbaeff.png",
+    "static/media/shrinklink.png": "/satyamthakur.net/static/media/shrinklink.c94fc149e71e26822f57.png",
+    "static/media/tictactoe.png": "/satyamthakur.net/static/media/tictactoe.96f132bf9d144f3c3c31.png",
+    "index.html": "/satyamthakur.net/index.html",
+    "main.5e032b99.css.map": "/satyamthakur.net/static/css/main.5e032b99.css.map",
+    "main.ceb5de09.js.map": "/satyamthakur.net/static/js/main.ceb5de09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e032b99.css",
+    "static/js/main.ceb5de09.js"
+  ]
+}
