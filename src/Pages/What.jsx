@@ -41,19 +41,17 @@ const What = () => {
       <div className="what__top w-full text-white flex flex-row justify-center items-center">
         <h1 className="title-text">PROJECTS</h1>
       </div>
-      <div className="what__content flex grid grid-cols-2 gap-10">
+      <div className="what__content flex grid grid-cols-2 gap-16">
         {Data.map((details, index) => {
           return (
             <a
+              key={details.id}
               rel="noreferrer"
               target="_blank"
               href={details.link}
               className="para-text"
             >
-              <div
-                className="flex flex-col justify-center items-center"
-                key={index}
-              >
+              <div className="flex flex-col justify-center items-center">
                 <div className="what__cell flex flex-row">
                   <div
                     className="what__cell__left w-1/2 h-full"
