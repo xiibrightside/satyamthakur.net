@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/satyamthakur.net/static/css/main.f58eed2d.css",
-    "main.js": "/satyamthakur.net/static/js/main.8034bf36.js",
+    "main.css": "/satyamthakur.net/static/css/main.211b35ac.css",
+    "main.js": "/satyamthakur.net/static/js/main.7d5bee6e.js",
     "static/media/welcomebg.gif": "/satyamthakur.net/static/media/welcomebg.5daaacb3914c1e851d49.gif",
     "static/media/contactbg.gif": "/satyamthakur.net/static/media/contactbg.1504028eb209e705d91c.gif",
     "static/media/maskup.png": "/satyamthakur.net/static/media/maskup.08667635c8bf21283958.png",
@@ -9,11 +9,11 @@
     "static/media/shrinklink.png": "/satyamthakur.net/static/media/shrinklink.c94fc149e71e26822f57.png",
     "static/media/tictactoe.png": "/satyamthakur.net/static/media/tictactoe.96f132bf9d144f3c3c31.png",
     "index.html": "/satyamthakur.net/index.html",
-    "main.f58eed2d.css.map": "/satyamthakur.net/static/css/main.f58eed2d.css.map",
-    "main.8034bf36.js.map": "/satyamthakur.net/static/js/main.8034bf36.js.map"
+    "main.211b35ac.css.map": "/satyamthakur.net/static/css/main.211b35ac.css.map",
+    "main.7d5bee6e.js.map": "/satyamthakur.net/static/js/main.7d5bee6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f58eed2d.css",
-    "static/js/main.8034bf36.js"
+    "static/css/main.211b35ac.css",
+    "static/js/main.7d5bee6e.js"
   ]
 }
