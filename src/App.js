@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import { Sidebar, Main, Foot } from "./components";
+import UnderConstruction from "./Pages/UnderConstruction";
 
 const App = () => {
   const [mode, setMode] = useState(false);
@@ -10,10 +11,12 @@ const App = () => {
   return (
     <main className="app__wrapper flex flex-row">
       <Sidebar />
-      <div className="mainpage flex flex-col">
+      {/*  <div className="mainpage flex flex-col">
         <Main />
-        <Foot />
-      </div>
+        
+      </div> */}
+      <UnderConstruction />
+      <Foot />
     </main>
   );
 };

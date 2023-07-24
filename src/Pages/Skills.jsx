@@ -68,11 +68,6 @@ const Skills = () => {
                 <div className="skills__cell rounded-full">
                   <img src={details.icon} alt={details.skill}></img>
                 </div>
-                <div>
-                  <p className="para-text">
-                    [{details.skill} : {details.proficiency}]
-                  </p>
-                </div>
               </div>
             );
           })}

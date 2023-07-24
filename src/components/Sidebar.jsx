@@ -6,7 +6,7 @@ const Socials = () => {
   // };
   return (
     <div className="sidebar__wrapper">
-      <div className="sidebar-top">
+      {/* <div className="sidebar-top">
         <ul className="sidebar-nav">
           <li>
             <button>
@@ -26,7 +26,7 @@ const Socials = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="sidebar-bottom">
         <div className="social-icons__wrapper">
           <a

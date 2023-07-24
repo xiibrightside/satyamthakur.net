@@ -1,4 +1,26 @@
 /*! reusable */
+.under-con {
+  background-image: url(./Pages/images/undercon1.gif);
+  background-color: rgb(0, 0, 0, 0.9);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.under-con h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+  font-size: 60px;
+  color: white;
+  text-shadow: 3px 0px 3px rgba(0, 0, 0, 0.75);
+}
+.under-con p {
+  font-family: "Sono", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  text-shadow: 3px 0px 3px rgba(0, 0, 0, 0.75);
+}
 /* ===== */
 /** text */
 .para-text {
@@ -35,13 +57,14 @@
   position: fixed;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 /*? Top & Bottom Halves */
 .sidebar-top,
 .sidebar-bottom {
   width: 100%;
-  height: 50%;
+  /* height: 50%; */
 }
 .sidebar-top {
   display: flex;
@@ -115,7 +138,7 @@
   background-repeat: no-repeat;
 }
 .maincontent__wrapper section:nth-of-type(1) {
-  background-image: url(./assets/welcomebg.gif);
+  background-image: url(./assets/welcomebgUpdated.gif);
 }
 .maincontent__wrapper section:nth-of-type(5) {
   background-image: url(./assets/contactbg.gif);
@@ -131,9 +154,10 @@
   flex-direction: column;
   justify-content: space-between;
   background: linear-gradient(
+    to left,
     180deg,
-    rgba(17, 17, 17, 0.5) 20%,
-    rgba(17, 17, 17, 1) 80%
+    rgba(17, 17, 17, 0.5) 10%,
+    rgba(17, 17, 17, 1) 90%
   );
 }
 .welcome__top {
@@ -338,6 +362,18 @@
 /* ========================== */
 /*! Media Queries for Mobile  */
 @media only screen and (max-width: 900px) {
+  .under-con h1 {
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+  }
+  .under-con p {
+    font-family: "Sono", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    text-align: justify;
+  }
   .sidebar__wrapper {
     display: none;
   }
